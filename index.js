@@ -11,12 +11,12 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
-
-
-/**
+const fullName = "tahani alwasmi"
+const yearOfBirth= "18 jan 2005"
+let hobby= "reading "
+let funFact="none"
+const image="27013336488_349c5cfd07.jpg"
+/**C
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
  * the variables defined above into strings.
@@ -32,9 +32,9 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
-
+const fullNameString=`My name is ${fullName}`
+const yearOfBirthString=`${yearOfBirth}`
+let hobbyString= `my hobby is ${hobby}`
 
 /**
  * Part 3: Re-assignment
@@ -45,14 +45,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars+=1
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+stars-=1
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+stars+=2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+stars-=2
 }
